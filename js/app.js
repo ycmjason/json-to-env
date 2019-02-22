@@ -37,6 +37,6 @@ const json2env = json => {
   $textarea.addEventListener('input', run);
 
   // initial textarea value
-  $textarea.value = '{\n    "a": 3,\n    "happyDragon": "amazing!",\n    "sad dragon": "cool!",\n    "flying-draGon": "wow!",\n    "HelloWorld": "She said: "Hello World""\n}';
+  $textarea.value = '{\n    "a": 3,\n    "happyDragon": "amazing!",\n    "sad dragon": "cool!",\n    "flying-draGon": "wow!",\n    "HelloWorld": "She said: \\"Hello World\\""\n}';
   run();
 })();
