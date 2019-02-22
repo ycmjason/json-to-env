@@ -1,0 +1,27 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+input, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.error {
+  background: #ffa3a3;
+  padding: 1rem;
+}
+.error:empty {
+  display: none;
+}
+
+textarea {
+  resize: none;
+  display: block;
+  width: 100%;
+  height: 50vh;
+}
+
+.result {
+  white-space: pre-wrap;
+}
