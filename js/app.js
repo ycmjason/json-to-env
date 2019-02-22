@@ -7,7 +7,7 @@ const toUpperSnakeCase = s => {
     // kebab case
     if (/-/.test(s)) return s.replace(/-/g, '_');
     // assuming it is camel case
-    return s[0] + s.substr(1).replace(/[A-Z]/g, '_$&');
+    return s.replace(/([a-z])([A-Z])/g, '$1_$2');
   })().toUpperCase();
 };
 
